@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
 
-  static const accentColor = Colors.teal;
+  static const accentColor = Color.fromRGBO(0, 150, 136, 1);
 
   @override
   Widget build(BuildContext context) {

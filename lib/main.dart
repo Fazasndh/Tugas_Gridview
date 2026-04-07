@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/home_page.dart';
+import 'pages/get_started_page.dart';
 
 void main() {
   runApp(const PinterestCloneApp());
@@ -12,12 +12,12 @@ class PinterestCloneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'FlownStudio',
+      title: 'FlownStudio', 
       theme: ThemeData(
         primarySwatch: Colors.teal, 
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: const HomePage(),
+      home: const GetStartedPage(),
     );
   }
 }
